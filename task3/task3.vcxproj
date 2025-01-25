@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c2052068-f6f4-47a5-adf6-13357fdd47ca}</ProjectGuid>
-    <RootNamespace>task1</RootNamespace>
+    <ProjectGuid>{2c41af2e-ffc3-4653-a33b-f1da8e9f93f2}</ProjectGuid>
+    <RootNamespace>task3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,21 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\task2\poisk.cpp" />
-    <ClCompile Include="assert_test.cpp" />
-    <ClCompile Include="database.cpp" />
-    <ClCompile Include="sort.cpp" />
-    <ClCompile Include="task1.cpp" />
-    <ClCompile Include="time.cpp" />
-    <ClCompile Include="_array_.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\task2\poisk.h" />
-    <ClInclude Include="assert_test.h" />
-    <ClInclude Include="database.h" />
-    <ClInclude Include="sort.h" />
-    <ClInclude Include="time.h" />
-    <ClInclude Include="_array_.h" />
+    <ClCompile Include="..\task1\assert_test.cpp" />
+    <ClCompile Include="..\task1\database.cpp" />
+    <ClCompile Include="..\task1\sort.cpp" />
+    <ClCompile Include="..\task1\time.cpp" />
+    <ClCompile Include="..\task1\_array_.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

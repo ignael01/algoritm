@@ -25,12 +25,19 @@ int getRandomNumber(int min, int max) {
 }
 
 
-//
+
 //вывод в терминал массив
-void result(size_t massiv[], int n) {
+void print(size_t massiv[], int n) {
 	for (int i = 0; i < n;i++) {
 		std::cout << (massiv[i])<< " ";
 
 	}
 	std::cout << std::endl;
+}
+template<typename Type>
+bool proverka_array(Type array , size_t length) {
+	for (size_t i = 0; i < length; i++)
+	{
+		if (array[i] <= 0) { return false; }
+	}
 }
