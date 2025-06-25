@@ -81,4 +81,6 @@ int main()
 		
 	delete[] koll_push_1;
 
+
+
 }
